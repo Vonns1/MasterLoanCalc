@@ -1,8 +1,8 @@
 message = input("Olá, essa é a calculadora de empréstimo Fortuna. Iremos calcular qualquer valor que não exceda o valor de 5 vezes sua renda e seja parcelado no período máximo de 12 meses. Clique Enter para começarmos.")
 input_user = input("Gostaria de fazer uma simulaçao?(Sim ou Nao): ")
 
-if input_user.lower() == "Nao":
-    print('Sem problemas, estaremos sempre a disposiçao')
+if input_user.lower() == "Não":
+    print('Sem problemas, estaremos sempre a disposição')
 
 if input_user.lower() == "sim":
     print("Poderia informar qual sua renda familiar?") # criar sequencia Validação de Renda: Os usuários inserirão informações sobre sua renda mensal.
@@ -10,7 +10,7 @@ if input_user.lower() == "sim":
     lower_bound = 2000.00
     upper_bound = 10000.00
 
-    renda = float(input("Insira o total da renda, até seus decimais")) # A aplicação verificará se a renda inserida é válida e está dentro de um limite específico. Valor entre 2000 até 10.000
+    renda = float(input("Insira o total da renda, até seus decimais.")) # A aplicação verificará se a renda inserida é válida e está dentro de um limite específico. Valor entre 2000 até 10.000
 
     if lower_bound <= renda <= upper_bound:
         print("Sua renda foi aprovada para seguirmos.")
